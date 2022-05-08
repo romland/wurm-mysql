@@ -1,0 +1,7 @@
+TODO
+	- Automate import of Sqlite databases into mySQL
+		- use sqlite3 sample.db .dump to get sqlite data
+		- see http://stackoverflow.com/questions/18671/quick-easy-way-to-migrate-sqlite3-to-mysql
+		- there are subtle differences between sqlite and mysql, need a converter
+		- copy old sqlite database to new filename
+	  	- we can use DbIndexManager.createIndexes() and DbIndexManager.removeIndexes() for faster inserts
